@@ -51,6 +51,9 @@ autolabeler:
   - label: deps
     branch:
       - '/^dependabot\/.+/'
+  - label: major
+    title:
+      - '/breaking change/i'
   - label: minor
     branch:
       - '/^feat(ure)?[/-].*/'
