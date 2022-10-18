@@ -34,8 +34,7 @@ template: |
   ## What's changed
   $CHANGES
 
-  **Full Changelog**: $REPOSITORY/compare/$PREVIOUS_VERSION...$RESOLVED_VERSION
-  -
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
 autolabeler:
   - label: feature
     branch:
